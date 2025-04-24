@@ -5,17 +5,19 @@ This repository contains examples of using Express.js for building web applicati
 
 ### Files and Features
 
-1. **[dynamic_routing/app.js](dynamic_routing/app.js)**:
+1. **[routing/script.js](routing/script.js)**:
+   - Demonstrates basic routing in Express.js.
+   - Includes routes like `/`, `/profile`, and `/contect`.
+
+
+2. **[dynamic_routing/app.js](dynamic_routing/app.js)**:
    - Demonstrates dynamic routing in Express.js.
    - Example: `/profile/:username` dynamically handles routes based on the `username` parameter.
 
-2. **[middleware/script.js](middleware/script.js)**:
+3. **[middleware/script.js](middleware/script.js)**:
    - Demonstrates the use of middleware in Express.js.
    - Middleware logs a message before passing control to the next route or middleware.
 
-3. **[routing/script.js](routing/script.js)**:
-   - Demonstrates basic routing in Express.js.
-   - Includes routes like `/`, `/profile`, and `/contect`.
 
 ## How to Run
 
@@ -24,4 +26,4 @@ This repository contains examples of using Express.js for building web applicati
 3. Run the following commands:
    ```bash
    npm install express
-   node script.js
+   node app.js

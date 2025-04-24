@@ -1,0 +1,22 @@
+A template engine enables you to use static template files in your application. At runtime, the template engine
+ replaces variables in a template file with actual values, and transforms the template into an HTML file sent to 
+ the client. This approach makes it easier to design an HTML page.
+
+
+ to set up ejs we have to done these steps
+
+ 1. ejs install
+ npm i ejs
+
+ 2.configure ejs
+ app.set("view engine", "ejs");
+
+ 3. create one "views" folder
+
+ 4. create ejs files in views folder
+
+ 5. usre render in the place of send
+
+ at the time of render make sure use only files of views and no need to write .ejs
+
+ 
