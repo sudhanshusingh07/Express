@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="stylesheets/style.css" />
+  //here we are using the css file from the static folder
+</head>
+
+<body>
+  <button id="darkToggle">🌙 Toggle Dark</button>
+  <header data-aos="fade-down">
+    <h1>Hello, I'm Vladyslav</h1>
+    <p>UI/UX Designer & Frontend Developer</p>
+  </header>
+
+  <section class="projects-grid">
+    <div class="project-card" data-aos="fade-up">
+      <h3>Finance Tracker</h3>
+      <p>Web development</p>
+    </div>
+    <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+      <h3>Creative App</h3>
+      <p>Mobile UI</p>
+    </div>
+    <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+      <h3>Landing Page</h3>
+      <p>Web Design</p>
+    </div>
+  </section>
+
+  <form id="contactForm" data-aos="fade-up">
+    <input type="text" placeholder="Your Name" required />
+    <input type="email" placeholder="Your Email" required />
+    <textarea placeholder="Your Message" required></textarea>
+    <button type="submit">Send</button>
+    <p id="formStatus"></p>
+  </form>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,
+      once: true,
+    });
+
+    document.getElementById("contactForm").addEventListener("submit", function (e) {
+      e.preventDefault();
+      const status = document.getElementById("formStatus");
+      status.textContent = "Sending...";
+      setTimeout(() => {
+        status.textContent = "Message sent! 🚀";
+        this.reset();
+      }, 1500);
+    });
+
+    document.getElementById("darkToggle").addEventListener("click", () => {
+      document.body.classList.toggle("dark");
+    });
+  </script>
+
+</html>

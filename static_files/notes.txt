@@ -1,0 +1,11 @@
+static files means setup images, stylesheets, frontend js files
+
+to setup static files do these steps-
+
+1. create a folder called public
+
+2. create create folder inside it (images, stylesheets, js)
+
+3. configure the express static
+
+4. understand the path
