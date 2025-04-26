@@ -1,0 +1,6 @@
+install  connect-flasd
+make sure you put connect flash in a app.use function
+in any route you have to create flashin any other route you can try to run app use
+
+
+there is no way to send data from one route to another route but the use of this we can done that.
