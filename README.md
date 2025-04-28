@@ -17,6 +17,12 @@ This repository contains examples of using Express.js for building web applicati
 3. **[middleware/app.js](03middleware/app.js)**:
    - Demonstrates the use of middleware in Express.js.
    - Middleware logs a message before passing control to the next route or middleware.
+  
+4. **[template_engine/app.js](04template_engine/app.js)**:
+   - Demonstrates the use of template engine in Express.js.
+   - A template engine enables you to use static template files in your application. At runtime, the template engine
+     replaces variables in a template file with actual values, and transforms the template into an HTML file sent to 
+     the client. This approach makes it easier to design an HTML page.
 
 
 ## How to Run
