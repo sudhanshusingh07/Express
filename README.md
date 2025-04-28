@@ -24,6 +24,10 @@ This repository contains examples of using Express.js for building web applicati
      replaces variables in a template file with actual values, and transforms the template into an HTML file sent to 
      the client. This approach makes it easier to design an HTML page.
 
+5. **[static_files/app.js](05static_files/app.js)**:
+   - Demonstrates the use of static files in Express.js.
+   - static files means setup images, stylesheets, frontend javaScript files
+
 
 ## How to Run
 
