@@ -5,7 +5,7 @@ This repository contains examples of using Express.js for building web applicati
 
 ### Files and Features
 
-1. **[routing/script.js](routing/script.js)**:
+1. **[routing/script.js](routing/app.js)**:
    - Demonstrates basic routing in Express.js.
    - Includes routes like `/`, `/profile`, and `/contect`.
 
@@ -14,7 +14,7 @@ This repository contains examples of using Express.js for building web applicati
    - Demonstrates dynamic routing in Express.js.
    - Example: `/profile/:username` dynamically handles routes based on the `username` parameter.
 
-3. **[middleware/script.js](middleware/script.js)**:
+3. **[middleware/script.js](middleware/app.js)**:
    - Demonstrates the use of middleware in Express.js.
    - Middleware logs a message before passing control to the next route or middleware.
 
