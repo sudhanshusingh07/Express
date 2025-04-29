@@ -27,6 +27,10 @@ This repository contains examples of using Express.js for building web applicati
 5. **[static_files/app.js](05static_files/app.js)**:
    - Demonstrates the use of static files in Express.js.
    - static files means setup images, stylesheets, frontend javaScript files
+  
+6. **[error_handling/app.js](06error_handling/app.js)**:
+   - Demonstrates the use of error handling in Express.js.
+   - Error handling deals with the errors that occur in Express.
 
 
 ## How to Run
