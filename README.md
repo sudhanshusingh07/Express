@@ -35,6 +35,10 @@ This repository contains examples of using Express.js for building web applicati
 7. **[express-generator/app.js](07express-generator/app.js)**:
    - Demonstrates the use of express generator in Express.js.
    - Express Generator is used to set up the environment for an Express application. it  helps quickly set up the basic structure of an Express application.
+  
+8. **[mongodb/app.js](08mongodb/app.js)**:
+   - Demonstrates the use of mongodb in Express.js.
+   -In this, we generally learn about schema creation.
 
 ## How to Run
 
