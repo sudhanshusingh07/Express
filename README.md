@@ -32,6 +32,9 @@ This repository contains examples of using Express.js for building web applicati
    - Demonstrates the use of error handling in Express.js.
    - Error handling deals with the errors that occur in Express.
 
+7. **[express-generator/app.js](07express-generator/app.js)**:
+   - Demonstrates the use of express generator in Express.js.
+   - Express Generator is used to set up the environment for an Express application. it  helps quickly set up the basic structure of an Express application.
 
 ## How to Run
 
