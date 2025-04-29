@@ -40,6 +40,11 @@ This repository contains examples of using Express.js for building web applicati
    - Demonstrates the use of mongodb in Express.js.
    -In this, we generally learn about schema creation.
 
+
+9. **[flash_messages/app.js](09flash_messages/app.js)**:
+   - Demonstrates the use of flash messages in Express.js.
+   - Flash messages are temporary messages used in web applications to inform the user about the result of an action.
+
 ## How to Run
 
 1. Install [Node.js](https://nodejs.org/) if not already installed.
