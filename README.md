@@ -38,7 +38,7 @@ This repository contains examples of using Express.js for building web applicati
   
 8. **[mongodb/app.js](08mongodb/app.js)**:
    - Demonstrates the use of mongodb in Express.js.
-   -In this, we generally learn about schema creation.
+   - In this, we generally learn about schema creation.
 
 
 9. **[flash_messages/app.js](09flash_messages/app.js)**:
